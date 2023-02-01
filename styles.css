@@ -1,3 +1,24 @@
 body{
-    background-color: rgb(255, 60, 0);
-}
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+ img{
+    display: block;
+    margin: 0 auto;
+    width: 275px;
+    
+
+ }
+
+ h1{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 86px;
+    
+ }
